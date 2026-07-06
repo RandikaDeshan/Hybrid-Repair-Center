@@ -31,7 +31,7 @@ const Home_Page = () => {
         </div>
         <div className=' w-full h-screen relative mt-20'>
             <div className=' absolute z-10 bg-black/50 w-full h-full flex flex-col justify-center items-center'>
-                <p data-aos ="zoom-in" data-aos-duration="2000" className=' text-white text-4xl px-10 text-center font-bold font-["Poppins"] leading-20'>"Committed to quality workmanship and complete customer satisfaction."</p>
+                <p data-aos ="zoom-in" data-aos-duration="2000" className=' text-white text-2xl md:text-4xl px-5 md:px-10 text-center font-bold font-["Poppins"] leading-14 md:leading-20'>"Committed to quality workmanship and complete customer satisfaction."</p>
             </div>
             <img src={AboutImg2} alt="" className=' w-full h-full object-cover'/>
         </div>

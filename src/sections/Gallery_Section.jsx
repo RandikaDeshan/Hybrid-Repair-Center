@@ -14,17 +14,17 @@ import GalleryImg12 from '../assets/gimg12.webp'
 
 const Gallery_Section = () => {
   return (
-    <div className=' w-full h-full px-10 pt-20 flex flex-col items-center'>
-        <p data-aos ="zoom-in-up" data-aos-duration="2000" className=' font-["Poppins"] font-bold text-5xl pb-20'>IMAGE GALLERY</p>
-        <div className=' w-full h-100 flex'>
-            <div data-aos ="zoom-in-up" data-aos-duration="2000" className=' w-1/2 h-full flex overflow-hidden rounded-tl-2xl mr-2'> 
-                <img src={GalleryImg3} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover rounded-tl-2xl hover:scale-105 transition-transform duration-300'/>
+    <div className=' w-full h-full px-5 md:px-10 pt-20 flex flex-col items-center'>
+        <p data-aos ="zoom-in-up" data-aos-duration="2000" className=' font-["Poppins"] text-center font-bold text-3xl md:text-5xl pb-20'>IMAGE GALLERY</p>
+        <div className=' w-full h-100 flex flex-col md:flex-row'>
+            <div data-aos ="zoom-in-up" data-aos-duration="2000" className='w-full md:w-1/2 h-full flex overflow-hidden rounded-t-2xl md:rounded-t-none md:rounded-tl-2xl md:mr-2 mb-1 md:mb-0'> 
+                <img src={GalleryImg3} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover  hover:scale-105 transition-transform duration-300'/>
             </div>
-             <div className=' w-1/2 h-full flex flex-col overflow-hidden rounded-tr-2xl ml-2'>
-                <div data-aos ="zoom-in-up" data-aos-duration="2000" className='w-full h-3/5 overflow-hidden mb-1'>
-                    <img src={GalleryImg5} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover rounded-tr-2xl hover:scale-105 transition-transform duration-300'/>
+             <div className='w-full md:w-1/2 h-full flex flex-col-reverse md:flex-col overflow-hidden md:rounded-tr-2xl md:ml-2'>
+                <div data-aos ="zoom-in-up" data-aos-duration="2000" className='w-full h-3/5 overflow-hidden mb-1 mt-2 md:mt-0'>
+                    <img src={GalleryImg5} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover md:rounded-tr-2xl hover:scale-105 transition-transform duration-300'/>
                 </div>
-                <div className=' w-full h-2/5 flex'>
+                <div className=' w-full h-2/5 flex mb-1 md:mb-0 mt-0 md:mt-1'>
                     <div data-aos ="zoom-in-up" data-aos-duration="2000" className=' w-1/2 h-full flex overflow-hidden mt-1 mr-1'>
                         <img src={GalleryImg2} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover hover:scale-105 transition-transform duration-300'/>
                     </div>
@@ -35,8 +35,8 @@ const Gallery_Section = () => {
             </div>
         </div>
 
-        <div className=' w-full h-100 flex mt-2'>
-             <div className=' w-1/2 h-full flex flex-col overflow-hidden mr-2'>
+        <div className=' w-full h-100 flex mt-1 md:mt-2'>
+             <div className=' w-1/2 h-full flex flex-col overflow-hidden mr-1 md:mr-2'>
                 <div data-aos ="zoom-in-up" data-aos-duration="2000" className='w-full h-3/5 overflow-hidden mb-1'>
                     <img src={GalleryImg6} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover hover:scale-105 transition-transform duration-300'/>
                 </div>
@@ -49,16 +49,16 @@ const Gallery_Section = () => {
                     </div>
                 </div>
             </div>
-            <div data-aos ="zoom-in-up" data-aos-duration="2000" className=' w-1/2 h-full flex overflow-hidden ml-2'> 
+            <div data-aos ="zoom-in-up" data-aos-duration="2000" className=' w-1/2 h-full flex overflow-hidden ml-1 md:ml-2'> 
                 <img src={GalleryImg4} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover hover:scale-105 transition-transform duration-300'/>
             </div>
         </div>
 
-        <div className=' w-full h-100 flex mt-2'>
-            <div data-aos ="zoom-in-up" data-aos-duration="2000" className=' w-1/2 h-full flex overflow-hidden rounded-bl-2xl mr-2'> 
-                <img src={GalleryImg10} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover rounded-bl-2xl hover:scale-105 transition-transform duration-300'/>
+        <div className=' w-full h-100 flex flex-col-reverse md:flex-row mt-2'>
+            <div data-aos ="zoom-in-up" data-aos-duration="2000" className='w-full md:w-1/2 h-full flex overflow-hidden rounded-b-2xl md:rounded-b-none md:rounded-bl-2xl md:mr-2 mt-1 md:mt-0'> 
+                <img src={GalleryImg10} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover hover:scale-105 transition-transform duration-300'/>
             </div>
-             <div className=' w-1/2 h-full flex flex-col overflow-hidden ml-2'>
+             <div className=' w-full md:w-1/2 h-full flex flex-col overflow-hidden md:ml-2 mb-1 md:mb-0'>
                 <div data-aos ="zoom-in-up" data-aos-duration="2000" className='w-full h-3/5 overflow-hidden mb-1'>
                     <img src={GalleryImg8} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover  hover:scale-105 transition-transform duration-300'/>
                 </div>
@@ -66,8 +66,8 @@ const Gallery_Section = () => {
                     <div data-aos ="zoom-in-up" data-aos-duration="2000" className=' w-1/2 h-full flex overflow-hidden mt-1 mr-1'>
                         <img src={GalleryImg7} alt=""  loading="lazy" decoding="async" className=' w-full h-full object-cover hover:scale-105 transition-transform duration-300'/>
                     </div>
-                    <div data-aos ="zoom-in-up" data-aos-duration="2000" className=' w-1/2 h-full flex overflow-hidden rounded-br-2xl mt-1 ml-1'>
-                        <img src={GalleryImg9} alt=""  loading="lazy" decoding="async" className=' w-full h-full rounded-br-2xl object-cover hover:scale-105 transition-transform duration-300'/>
+                    <div data-aos ="zoom-in-up" data-aos-duration="2000" className=' w-1/2 h-full flex overflow-hidden md:rounded-br-2xl mt-1 ml-1'>
+                        <img src={GalleryImg9} alt=""  loading="lazy" decoding="async" className=' w-full h-full md:rounded-br-2xl object-cover hover:scale-105 transition-transform duration-300'/>
                     </div>
                 </div>
             </div>

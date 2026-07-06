@@ -5,17 +5,17 @@ import { FaClock, FaPhone } from "react-icons/fa";
 
 const Contact_Section = () => {
   return (
-    <div className=" w-full h-full px-10 flex flex-col items-center">
+    <div className=" w-full h-full px-5 md:px-10 flex flex-col items-center">
       <div
         data-aos="zoom-in-up"
         data-aos-duration="2000"
-        className=" w-full h-150 relative"
+        className=" w-full h-120 md:h-150 relative"
       >
         <div className=" absolute z-10 bg-black/50 w-full h-full flex flex-col items-center justify-center">
           <p
             data-aos="zoom-in"
             data-aos-duration="3000"
-            className=' text-4xl text-white font-bold font-["Poppins"]'
+            className=' text-2xl text-center md:text-4xl text-white font-bold font-["Poppins"]'
           >
             CONTACT US
           </p>
@@ -29,20 +29,20 @@ const Contact_Section = () => {
       <p
         data-aos="zoom-in-up"
         data-aos-duration="2000"
-        className=' text-5xl font-["Poppins"] font-bold pt-20 py-10'
+        className=' text-3xl text-center md:text-5xl font-["Poppins"] font-bold pt-20 py-10'
       >
         Get in Touch With Our Team
       </p>
       <p
         data-aos="zoom-in-up"
         data-aos-duration="2000"
-        className=' font-semibold text-green-600 font-["Inter"] mb-20'
+        className=' font-semibold text-center text-green-600 font-["Inter"] mb-20'
       >
         We're here to assist you with vehicle servicing, repairs, hybrid
         diagnostics, and body painting. Contact us today.
       </p>
-      <div className=" w-full h-150 flex justify-between mb-20">
-        <div className=" w-1/2 h-full flex flex-col items-center justify-center">
+      <div className=" w-full h-300 md:h-150 flex flex-col md:flex-row justify-between mb-20">
+        <div className="w-full md:w-1/2 h-1/2 md:h-full flex flex-col items-center justify-center">
           <div className="space-y-12">
             <div
               data-aos="zoom-in-up"
@@ -108,7 +108,7 @@ const Contact_Section = () => {
         <div
           data-aos="zoom-in-up"
           data-aos-duration="2000"
-          className=" w-1/2 h-full bg-green-200 rounded-2xl border border-green-500"
+          className="w-full md:w-1/2 h-1/2 md:h-full bg-green-200 rounded-2xl border border-green-500"
         >
           <form action="" className=" p-10 space-y-10">
             <div>

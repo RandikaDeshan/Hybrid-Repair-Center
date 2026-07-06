@@ -4,9 +4,9 @@ import Navbar from '../components/Navbar'
 
 const Layout_Page = () => {
   return (
-    <div className=' w-full h-full'>
+    <div className=' w-full h-full overflow-hidden'>
         <div className=' w-full h-full relative'>
-            <div className=' w-full absolute z-50'>
+            <div className=' w-full absolute z-40'>
                 <Navbar/>
             </div>
             <Home_Page/>
