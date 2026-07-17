@@ -299,7 +299,7 @@ const Repair_Page = () => {
             </div>
             <div className=" space-y-5">
               <p className=" font-bold font-['Inter'] text-2xl">Email</p>
-              <p>info@sanctamaria.lk</p>
+              <p>info@servicecentre.lk</p>
             </div>
           </div>
         </div>

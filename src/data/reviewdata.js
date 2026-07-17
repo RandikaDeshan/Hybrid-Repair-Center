@@ -4,14 +4,14 @@ export const reviewData =[
         name : "Nimal Perera",
         role: "Hybrid Vehicle Owner",
         rating: 5,
-        review: "The team at Sancta Maria did an excellent job servicing my hybrid vehicle. They quickly identified the issue and completed the repair on time. Highly recommended!",
+        review: "The team at Service Centre did an excellent job servicing my hybrid vehicle. They quickly identified the issue and completed the repair on time. Highly recommended!",
     },
     {
         id : 2,
         name : "Deshan Peiris",
         role: "Hybrid Vehicle Owner",
         rating: 3.5,
-        review: "The team at Sancta Maria did an excellent job servicing my hybrid vehicle. They quickly identified the issue and completed the repair on time. Highly recommended!",
+        review: "The team at Service Centre did an excellent job servicing my hybrid vehicle. They quickly identified the issue and completed the repair on time. Highly recommended!",
     },
     {
         id : 3,

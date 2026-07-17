@@ -86,7 +86,7 @@ const Contact_Section = () => {
               </div>
               <div>
                 <p className=" text-2xl font-bold pb-3">Email</p>
-                <p>info@sanctamaria.lk</p>
+                <p>info@servicecentre.lk</p>
               </div>
             </div>
             <div
@@ -147,7 +147,7 @@ const Contact_Section = () => {
       </div>
       <div className=" w-full h-100 overflow-hidden mb-10">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.5893677380354!2d79.82909027373658!3d7.399822012362581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2c3fd00981657%3A0xce2ab6545f095df2!2sSancta%20Maria%20Hybrid%20and%20Sensor%20Vehicle%20Repair%20Center!5e0!3m2!1sen!2slk!4v1783187547604!5m2!1sen!2slk"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.57771449886843!2d79.83084585869302!3d7.396214274225366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2c159b988c69d%3A0x52def2585eaa4e3e!2sSoisarama%20Rd%2C%20Marawila!5e0!3m2!1sen!2slk!4v1784274896126!5m2!1sen!2slk"
           className="w-full h-full"
           style={{ border: 0 }}
           allowFullScreen

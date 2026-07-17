@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className=" w-full text-white flex justify-between items-center px-5 lg:px-10 py-3 bg-black/30 backdrop-blur-xs fixed top-0 left-0">
       <p className="text-lg md:text-xl lg:text-3xl font-serif font-bold text-green-500">
-        Sancta Maria
+        Service Centre
       </p>
       <div className=" hidden md:flex md:space-x-8 lg:space-x-15">
         <button

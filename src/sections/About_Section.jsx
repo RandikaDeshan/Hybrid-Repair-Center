@@ -19,7 +19,7 @@ const About_Section = () => {
             data-aos-duration="3000"
             className=' text-2xl md:text-4xl text-center px-3 text-white font-bold font-["Poppins"]'
           >
-            ABOUT SANCTA MARIA
+            ABOUT SERVICE CENTRE
           </p>
         </div>
         <img src={GarageImg} alt="" className=" w-full h-full object-cover" />
@@ -36,7 +36,7 @@ const About_Section = () => {
         data-aos-duration="3000"
         className=' font-["Inter"] text-justify font-semibold text-green-700 lg:px-20 pb-20'
       >
-        At Sancta Maria, we provide reliable automotive solutions with a strong
+        At Service Centre, we provide reliable automotive solutions with a strong
         focus on quality, precision, and customer satisfaction. From routine
         vehicle servicing and advanced diagnostics to mechanical repairs, body
         repairs, and professional painting, our experienced technicians ensure
@@ -115,39 +115,6 @@ const About_Section = () => {
         </div>
       </div>
       <div className=" w-full h-px bg-green-600"></div>
-      <div className=" w-full h-130 md:h-100 flex flex-col-reverse md:flex-row justify-between my-20 space-y-4 md:space-y-0">
-        <div
-          data-aos="zoom-in-right"
-          data-aos-duration="2000"
-          className=" w-full md:w-1/2 h-1/2 md:h-full overflow-hidden rounded-2xl drop-shadow-xl drop-shadow-black/50"
-        >
-          <img
-            src={DeepthaImg}
-            alt=""
-            className=" w-full h-full object-cover rounded-2xl hover:scale-105 transition-transform duration-300"
-          />
-        </div>
-        <div className=" w-full md:w-1/2 h-1/2 md:h-full flex flex-col items-center justify-center space-y-4">
-          <div
-            data-aos="zoom-in-left"
-            data-aos-duration="2000"
-            className=" flex flex-col justify-center items-center h-full space-y-5 text-lg font-semibold"
-          >
-            <p className=' text-center text-2xl md:text-3xl lg:text-4xl text-green-600 font-bold font-["Inter"]'>
-              Deeptha Appuhamy
-            </p>
-            <p className=' text-xl md:text-2xl lg:text-3xl font-bold font-["Inter"]'>
-              Bsc (Eng) Mech. SL
-            </p>
-            <p className=' text-xl md:text-2xl lg:text-3xl font-bold font-["Inter"]'>
-              Hybrid vehicles IMI UK
-            </p>
-            <p className=' text-xl md:text-2xl lg:text-3xl font-bold font-["Inter"]'>
-              EFI Engines IMI UK
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

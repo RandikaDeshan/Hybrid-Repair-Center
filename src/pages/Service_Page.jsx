@@ -100,7 +100,7 @@ const Service_Page = () => {
         >
           Regular vehicle servicing is essential for maintaining performance,
           improving fuel efficiency, and extending the lifespan of your vehicle.
-          At Sancta Maria, our experienced technicians perform comprehensive
+          At Service Centre, our experienced technicians perform comprehensive
           inspections and maintenance using quality parts and modern equipment.
         </p>
         <p
@@ -268,7 +268,7 @@ const Service_Page = () => {
             </div>
             <div className=" space-y-5">
               <p className=" font-bold font-['Inter'] text-2xl">Email</p>
-              <p>info@sanctamaria.lk</p>
+              <p>info@servicecentre.lk</p>
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ const Footer = () => {
       <div className=" w-full flex flex-col md:flex-row justify-between items-center md:items-end pb-5">
         <div className=" h-full flex flex-col justify-center">
           <p className="text-xl lg:text-3xl font-serif font-bold text-green-500 pb-10 md:pb-0">
-            Sancta Maria
+            Service Centre
           </p>
         </div>
         <div className=" flex flex-col justify-end items-start space-y-5 pb-10 md:pb-0">
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className=" flex space-x-2 items-center">
             <MdEmail color="white" />
-            <p className="text-sm lg:text-base text-gray-200">info@sanctamaria.lk</p>
+            <p className="text-sm lg:text-base text-gray-200">info@servicecentre.lk</p>
           </div>
         </div>
         <div className="hidden md:flex flex-col justify-end space-y-5 items-start">
@@ -202,7 +202,7 @@ const Footer = () => {
       </div>
       <div className=" w-full h-px bg-white"></div>
       <p className=" text-center text-gray-200 pt-5">
-        © 2026 Sancta Maria. All Rights Reserved. Designed & Developed by
+        © 2026 Service Centre. All Rights Reserved. Designed & Developed by
         NeonSynth
       </p>
     </div>
